@@ -1,0 +1,33 @@
+@tailwind base;        /* Tailwind 기본 스타일 */
+@tailwind components;  /* Tailwind 컴포넌트 클래스 */
+@tailwind utilities;   /* Tailwind 유틸리티 클래스 */
+
+body {
+  font-family: 'IBM Plex Mono', monospace;
+}
+.aboutMe-contentDiv {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.aboutMe-text {
+  display: inline-flex;
+  align-self: flex-start;
+  width: auto;
+  white-space: pre-wrap;
+  font-family: pretendard;
+  padding: 5px 20px 5px 10px;
+  font-weight: 600;
+  background-color: #eff0f3;
+  border-radius: 15px;
+}
+.project-name,
+.project-description {
+  font-family: pretendard;
+}
+.project-description {
+  white-space: pre-wrap;
+}
+.education-text {
+  font-family: pretendard;
+}
