@@ -6,5 +6,6 @@ import tailwind from '@astrojs/tailwind';
 export default defineConfig({
   site: 'https://cheesegratin4.github.io',
   outDir: 'docs',
+  trailingSlash: 'always',
   integrations: [tailwind()], 
 });
