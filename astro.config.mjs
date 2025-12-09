@@ -4,6 +4,7 @@ import tailwind from '@astrojs/tailwind';
 
 // https://astro.build/config
 export default defineConfig({
-  // integrations 배열에 추가
+  site: 'https://cheesegratin4.github.io',
+  outDir: 'dist',
   integrations: [tailwind()], 
 });
