@@ -1,6 +1,6 @@
-@tailwind base;        /* Tailwind 기본 스타일 */
-@tailwind components;  /* Tailwind 컴포넌트 클래스 */
-@tailwind utilities;   /* Tailwind 유틸리티 클래스 */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
 body {
   font-family: 'IBM Plex Mono', monospace;
