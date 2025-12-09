@@ -5,6 +5,6 @@ import tailwind from '@astrojs/tailwind';
 // https://astro.build/config
 export default defineConfig({
   site: 'https://cheesegratin4.github.io',
-  outDir: 'dist',
+  outDir: 'docs',
   integrations: [tailwind()], 
 });
