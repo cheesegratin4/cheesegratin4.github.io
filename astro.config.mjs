@@ -7,5 +7,8 @@ export default defineConfig({
   site: 'https://cheesegratin4.github.io',
   outDir: 'docs',
   
+  output: 'static', 
+  base: '/',
+
   integrations: [tailwind()], 
 });
